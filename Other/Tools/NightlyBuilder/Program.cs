@@ -203,7 +203,7 @@ namespace NightlyBuilder
 				{
 					// "svn add --force * --auto-props --parents --depth infinity -q"
 				
-					string commitMessage = string.Format("Updated Binary Package{0}{1}",
+					string commitMessage = string.Format("Updated Binary Package{0}{1}{0}{2}{0}{3}",
 						Environment.NewLine,
 						versionCore.FileVersion,
 						versionEditor.FileVersion,
